@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.scss'
@@ -119,6 +120,7 @@ export default function RootLayout({ children }: Readonly<IRootLayout>) {
 	return (
 		<html lang='en'>
 			<body className={inter.className}>{children}</body>
+			<GoogleAnalytics gaId='G-XYZ' />
 		</html>
 	)
 }
