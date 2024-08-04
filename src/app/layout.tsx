@@ -74,6 +74,35 @@ export const metadata: Metadata = {
 		creator: 'Creator User Name',
 		site: '@site',
 	},
+
+	// for localization if you have multiple languages on your website
+
+	alternates: {
+		// website canonical url
+		canonical: 'http://localhost:3000',
+
+		// locales for multiple languages
+		languages: {
+			'en-US': 'http://localhost:3000/en',
+			'tr-TR': 'http://localhost:3000/tr',
+		},
+
+		// this actions is not actual but if you have like case mobile version you can use this
+		media: {
+			'only-screen and (max-width: 640px)': 'http://localhost:3000/mobile',
+		},
+
+		// if you have rss feed you can use this
+		types: {
+			'application/rss+xml': 'http://localhost:3000/rss',
+		},
+	},
+
+	// for search engine optimization
+	verification: {
+		google: 'google-site-verification',
+		yandex: 'yandex-verification',
+	},
 }
 
 // show theme color in browser tab
