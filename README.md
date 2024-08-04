@@ -5,7 +5,7 @@ Next.js ile hem sunucu tarafı (SSR) hemde statik site oluşturma (SSG) gibi gü
 
 Ayrıca NextJs projemizin arama motorlarında daha öne çıkabilmesi için bazı gereken SEO ayarlamalarını yapmamız gerekebilir
 
-
+ - [Medium EN Version](https://medium.com/@thekinv21/nextjs-seo-optimization-step-by-step-8e2da931b2fa)
 
 ## Proje Kurulumu
 
