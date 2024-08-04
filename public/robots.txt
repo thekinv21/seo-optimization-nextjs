@@ -1,0 +1,27 @@
+User-Agent: Yandex 
+Host: YOUR_WEBSITE_DOMAIN
+Disallow: /auth
+Disallow: /recover
+Disallow: *utm
+
+Sitemap: YOUR_WEBSITE_DOMAIN/sitemap.xml
+
+
+
+User-Agent: GoogleBot 
+Host: YOUR_WEBSITE_DOMAIN
+Disallow: /auth
+Disallow: /recover
+Disallow: *utm
+
+Sitemap: YOUR_WEBSITE_DOMAIN/sitemap.xml
+
+
+
+User-Agent: * 
+Host: YOUR_WEBSITE_DOMAIN
+Disallow: /auth
+Disallow: /recover
+Disallow: *utm
+
+Sitemap: YOUR_WEBSITE_DOMAIN/sitemap.xml
