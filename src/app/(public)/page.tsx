@@ -30,11 +30,16 @@ export default function Home() {
 					</p>
 				</article>
 				<nav>
-					<a href='#' rel='noopener noreferrer'>
+					<a
+						href='#'
+						rel='noopener noreferrer'
+						aria-label='vercel_logo'
+						role='navigation_button'
+					>
 						By{' '}
 						<Image
 							src='/vercel.svg'
-							alt='Vercel Logo'
+							alt='vercel_logo'
 							className='dark:invert'
 							width={100}
 							height={24}
