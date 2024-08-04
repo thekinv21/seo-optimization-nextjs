@@ -104,6 +104,15 @@ export const metadata: Metadata = {
 		google: 'google-site-verification',
 		yandex: 'yandex-verification',
 	},
+
+	// manifest.json file path
+	manifest: '/manifest.json',
+	publisher: 'Vadim SEO Optimization Master Class ',
+	authors: {
+		name: 'Vadim',
+		url: 'https://www.portfolio.thekinv.website',
+	},
+	applicationName: 'SEO Optimization',
 }
 
 // show theme color in browser tab
