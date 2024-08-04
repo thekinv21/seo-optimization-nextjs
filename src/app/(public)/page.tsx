@@ -23,9 +23,11 @@ export default function Home() {
 						<code>src/app/page.tsx</code>
 					</p>
 
-					<time dateTime='2021-09-01' itemProp='datePublished'>
-						September 1, 2021
-					</time>
+					<p>
+						<time dateTime='2021-09-01' itemProp='datePublished'>
+							September 1, 2021
+						</time>
+					</p>
 				</article>
 				<nav>
 					<a href='#' rel='noopener noreferrer'>
